@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+    <head>
+        <title>We All Sing Along</title>
+        <link rel="stylesheet" type="text/css" href="CSS/l-styles3.css" />
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Fredoka+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Kavoon" rel="stylesheet">
+
+        <script type="text/javascript">
+            var image1 = new Image()
+            image1.src = "images/TestPic5.jpg"
+    
+            var image2 = new Image()
+            image2.src = "images/TestPic6.jpg"
+    
+            var image3 = new Image()
+            image3.src = "images/TestPic7.jpg"
+
+            var image4 = new Image()
+            image4.src = "images/TestPic8.jpg"
+        </script>
+
+    </head>
+    <body>
+        <div id="top-body">
+            <h1 id = "top-name">Welcome to We All Sing Along</h1>
+            <h2 class = "top-with-sis"><em>with</em><br>Linda Griffith</h2>
+            <h3 id = "motto">Research now shows that those people who sing are happier, <br> live longer and are generally much healthier too. <br> <br>
+                <!--So sing your heart out, because nobody cares whether you are in tune or not!</h3> -->
+           <img id = "top-left" src="images/Logo3a.jpg" alt="Logo">
+            <img id = "headshot" src="images/Linda_Headshot_4a.jpg" alt="Linda with Guitar">
+            <div id="menu">
+                <ul>
+                    <li class="menuitem"><a href="index.html">HOME</a></li>
+                    <li class="menuitem"><a href="index.html">SENIOR SING ALONG SERVICES</a></li>
+                    <!--<li class="menuitem"><a href="index.html">CHILDREN SING ALONG SERVICES</a></li>-->
+                    <li class="menuitem"><a href="index.html">WHY SING ALONG?</a></li>
+                    <li class="menuitem"><a href="index.html">MEET LINDA</a></li>
+                    <li class="menuitem"><a href="index.html">CONTACT</a></li>
+                </ul>
+            </div> <!-- end menu -->
+        </div> <!-- end top-body -->
+        <div id = "bottom-body-top">
+            <div id = "pictures-rotate">
+                    <img src="dummyImg1.jpg" name="slide" >
+                    <script type="text/javascript">
+                        var step = 1
+                        function slideit() {
+                            document.images["slide"].src = eval("image" + step + ".src")
+                            if (step < 4)
+                                step++
+                            else
+                                step = 1
+                            setTimeout("slideit()", 7000)
+                        }
+                        slideit()
+                    </script>
+            </div>
+        </div><!-- end bottom-body-top -->
+        <div id = "bottom-body-middle">
+            <div id="bottom-left-pic">
+                <img src="images/Seniors_At_Piano1.jpg" alt="happy seniors at piano">
+            </div>
+            <div id="bottom-middle">
+                <p id="italic-text">Much like exercise, singing releases endorphins, which helps elevate mood, and you also release oxytocin, which alleviates anxiety and can 
+                    help you feel all kinds of blissed out.</p>
+                <p id="standard-text">The combo is considered a natural "tranquilizer", and one study even found that group singing in particular increases positive effects 
+                    on an individual's overall well-being, and it can actually change your brain.</p>
+            </div>
+            <div id="bottom-right-pic">
+                <img src="images/SingingLadies1.jpg" alt="happy seniors at piano">
+            </div>
+        </div><!-- end bottom-body-middle -->
+        <div id="footer">
+            <h3 class ="footer-website">Please contact <a id="email-link" href="mailto:linda@weallsingalong.com?subject=Email Linda">Linda Griffith</a> at linda@weallsingalong.com or 888-123-4567 to learn more or schedule a visit</h3>
+            <h3 class ="footer-website">&copy; 2017 www.weallsingalong.com</h3>
+        </div><!-- end of footer -->
+    </body>
+
+</html>

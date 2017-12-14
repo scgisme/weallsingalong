@@ -1,0 +1,177 @@
+*{
+	margin: 0 auto 0 auto;
+}
+
+body {
+    background-image:url(../images/background_teal.png);
+	background-repeat:repeat;
+}
+
+#top-body {
+    position: relative;
+    background-image:url(../images/background_teal.png);
+	background-repeat:repeat;
+    height:220px;
+    width:1200px;
+    text-align: center;
+}
+
+#top-name {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 45px;
+    color: #fc9802;
+    padding-bottom: 15px;
+}
+
+.top-with-sis {
+    font-family: 'Fredoka One', cursive;
+    font-size: 35px;
+    color: #183a83;
+    padding-bottom: 30px;
+}
+
+#motto {
+    padding-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 20px;
+    color: #f7f329;
+}
+
+#happycartoon {
+    position: absolute;
+    top: 0px;
+    left: 0px; 
+}
+
+#headshot {
+    position: absolute;
+    top: 0px;
+    right: 0px; 
+}
+
+#menu{
+	display:block;
+	float:left;
+	clear:both;
+	width:1160px;
+	height:54px;
+	float:left;
+    clear:both;
+    padding-left: 40px; 
+    background: #183a83;
+}
+
+#menu ul {
+	list-style: none;
+	padding: 0px;
+	margin-left:auto;
+	width:1200px;
+}
+
+#menu li {
+	list-style: none;
+	padding: 0px;	
+    display: inline; 
+}
+
+#menu a {
+	float: left;
+	height: 36px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	padding-top: 18px;
+	font-size: 17px;
+	padding-left:13px;
+    padding-right:13px;
+}
+
+#menu a:hover{
+	color:#86AEF9;
+}
+
+#pictures-rotate {
+    width: 1200px;
+    height: 398px;
+    align-self: auto;
+    border: 1px solid #000000;
+    clear:both;
+}
+
+#bottom-body-top {
+    
+    align-self: center;
+    display: block;
+}
+
+#bottom-body-middle {
+    margin-left:auto;
+    width: 1200px;
+    height: 200px;
+    align-self: auto;
+    border: 1px solid #000000;
+}
+
+#left-pic { 
+    position: relative;
+    float:left;
+    width: 296px;
+    height: 200px;
+    border: 1px solid #000000;
+}
+
+#bottom-middle {
+    position: relative;
+    float:left;
+    background: white;
+    text-align: center;
+    width: 602px;
+    height: 200px;
+    border: 1px solid #000000;
+}
+
+#italic-text {
+    padding: 5px 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: #183a83;
+    text-align: center;
+}
+
+#standard-text {
+    padding: 5px 10px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color:#183a83;
+}
+
+#right-pic {
+    float:left;
+    width: 296px;
+    height: 200px;
+    border: 1px solid #000000;
+}
+
+#bottom-images {
+    width: 296px;
+    height: 200px;
+}
+
+#footer {
+    background-image:url(../images/background_teal.png);
+	background-repeat:repeat;
+height:50px;
+width:1200px;
+text-align: center;
+}
+
+#footer-website {
+    text-align: center;
+    padding-top: 10px;
+}
